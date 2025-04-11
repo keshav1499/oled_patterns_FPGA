@@ -55,7 +55,7 @@ module frame_updater (
             end
             else begin
                 col_counter <= 0;
-                current_page <= (current_page == 7) ? 0 : current_page + 1;              //Mast pattern hai re baba
+                current_page <= (current_page == 7) ? 0 : current_page + 1;              //Sequentail Rain drop patterns
                 x_pos <= (x_pos == 127) ? 0 : x_pos + 1;
             end
         end
